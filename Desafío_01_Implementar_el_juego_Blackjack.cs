@@ -8,7 +8,7 @@ namespace Desafío_01_Implementar_el_juego_Blackjack
         static void Main(string[] args)
         {
             Random aleatorio = new Random();
-            int carta = 0, carta1 = aleatorio.Next(1, 11), carta2 = aleatorio.Next(1, 11), i = 0, total = carta1 + carta2;
+            int carta = 0, carta1 = aleatorio.Next(1, 11), carta2 = aleatorio.Next(1, 11), total = carta1 + carta2;
             Console.WriteLine("sus cartas iniciales son: " + carta1 + " y " + carta2+" y su total es: "+total);
             string respuesta = "si";
             while (total < 22 && respuesta=="si") {
