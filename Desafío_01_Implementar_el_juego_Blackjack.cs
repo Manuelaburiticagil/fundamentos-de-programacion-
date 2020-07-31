@@ -19,7 +19,6 @@ namespace Desafío_01_Implementar_el_juego_Blackjack
                         carta = aleatorio.Next(1, 11);
                         total += carta;
                         Console.WriteLine("su nueva carta es: " + carta + " y su nuevo total es: " + total);
-                        break;
                     case "no":
                         break;
                 }
