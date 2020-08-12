@@ -52,9 +52,6 @@ namespace _09_Ciclos_simulacro_02_clase
                 Console.WriteLine("su dado es: " + dado + " y su total es: " + total);
                 Console.WriteLine("\n \n \n ¿Desea continuar tirando? s/n");
                 respuesta = Console.ReadLine();
-                while (respuestaEspecial != "s" && respuestaEspecial != "n"){
-                    Console.WriteLine("Su respuesta no es valida, porfavor ingrese de nuevo su respuesta");
-                    respuestaEspecial = Console.ReadLine();
                 }
             }
             Console.WriteLine("su total quedo en:"+total);
