@@ -8,14 +8,15 @@ namespace asddcf
         {
             Console.WriteLine("Cuantos jugadores son: (máximo 5, mínimo 2)");
             int jugadores = int.Parse(Console.ReadLine());
-            string[] nombres = new string[jugadores];
-            int[] total = new int[jugadores];
 
             while (jugadores < 2 || jugadores > 5)
             {
                 Console.WriteLine("Respuesta no valida, los jugadores tienen que ser máximo 5 y mínimo 2, Ingrese de nuevo su respuesta");
                 jugadores = int.Parse(Console.ReadLine());
             }
+            
+            string[] nombres = new string[jugadores];
+            int[] total = new int[jugadores];
             for (int i = 0; i < jugadores; i++)
             {
                 Console.WriteLine("Ingrese el nombre: ");
